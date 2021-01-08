@@ -6,15 +6,17 @@ import com.firebase.ui.auth.AuthUI;
 
 import java.util.Arrays;
 
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class LoginActivity extends BaseActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-    }
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_login);
+//        ButterKnife.bind(this);
+//    }
 
     @Override
     public int getFragmentLayout() {
